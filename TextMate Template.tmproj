@@ -2,17 +2,40 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>app/views/pages/home.html.erb</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>children</key>
 			<array>
 				<dict>
+					<key>filename</key>
+					<string>Gemfile</string>
+					<key>lastUsed</key>
+					<date>2011-07-08T02:03:47Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>README</string>
+					<key>lastUsed</key>
+					<date>2011-07-08T02:04:44Z</date>
+				</dict>
+				<dict>
 					<key>children</key>
 					<array>
 						<dict>
 							<key>children</key>
-							<array/>
+							<array>
+								<dict>
+									<key>filename</key>
+									<string>app/controllers/pages_controller.rb</string>
+									<key>lastUsed</key>
+									<date>2011-07-08T02:46:46Z</date>
+								</dict>
+							</array>
+							<key>expanded</key>
+							<true/>
 							<key>name</key>
 							<string>controllers</string>
 						</dict>
@@ -45,17 +68,47 @@
 								</dict>
 								<dict>
 									<key>children</key>
-									<array/>
+									<array>
+										<dict>
+											<key>filename</key>
+											<string>app/views/pages/home.html.erb</string>
+											<key>lastUsed</key>
+											<date>2011-07-08T02:47:44Z</date>
+											<key>selected</key>
+											<true/>
+										</dict>
+									</array>
+									<key>expanded</key>
+									<true/>
 									<key>name</key>
-									<string>products</string>
+									<string>pages</string>
 								</dict>
 							</array>
+							<key>expanded</key>
+							<true/>
 							<key>name</key>
 							<string>views</string>
 						</dict>
 					</array>
+					<key>expanded</key>
+					<true/>
 					<key>name</key>
 					<string>app</string>
+				</dict>
+				<dict>
+					<key>children</key>
+					<array>
+						<dict>
+							<key>filename</key>
+							<string>config/routes.rb</string>
+							<key>lastUsed</key>
+							<date>2011-07-08T02:44:53Z</date>
+						</dict>
+					</array>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>config</string>
 				</dict>
 				<dict>
 					<key>children</key>
@@ -99,8 +152,20 @@
 					<key>children</key>
 					<array>
 						<dict>
+							<key>filename</key>
+							<string>public/hello.html</string>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>public/index.html</string>
+							<key>lastUsed</key>
+							<date>2011-07-08T02:23:22Z</date>
+						</dict>
+						<dict>
 							<key>children</key>
 							<array/>
+							<key>expanded</key>
+							<true/>
 							<key>name</key>
 							<string>images</string>
 						</dict>
@@ -113,10 +178,14 @@
 						<dict>
 							<key>children</key>
 							<array/>
+							<key>expanded</key>
+							<true/>
 							<key>name</key>
 							<string>stylesheets</string>
 						</dict>
 					</array>
+					<key>expanded</key>
+					<true/>
 					<key>name</key>
 					<string>public</string>
 				</dict>
@@ -125,6 +194,14 @@
 					<array/>
 					<key>name</key>
 					<string>script</string>
+				</dict>
+				<dict>
+					<key>children</key>
+					<array/>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>spec</string>
 				</dict>
 				<dict>
 					<key>children</key>
@@ -224,10 +301,59 @@
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
-	<dict/>
+	<dict>
+		<key>app/controllers/pages_controller.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/pages/home.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>config/routes.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>config/routes.rb</string>
+		<string>app/controllers/pages_controller.rb</string>
+		<string>app/views/pages/home.html.erb</string>
+	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{293, 139}, {1090, 737}}</string>
+	<string>{{213, 141}, {1090, 737}}</string>
 </dict>
 </plist>
