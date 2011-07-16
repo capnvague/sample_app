@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>app/views/pages/home.html.erb</string>
+	<string>spec/controllers/users_controller_spec.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -13,7 +13,7 @@
 					<key>filename</key>
 					<string>Gemfile</string>
 					<key>lastUsed</key>
-					<date>2011-07-08T02:03:47Z</date>
+					<date>2011-07-14T11:14:19Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -29,9 +29,19 @@
 							<array>
 								<dict>
 									<key>filename</key>
+									<string>app/controllers/application_controller.rb</string>
+									<key>selected</key>
+									<true/>
+								</dict>
+								<dict>
+									<key>filename</key>
 									<string>app/controllers/pages_controller.rb</string>
 									<key>lastUsed</key>
-									<date>2011-07-08T02:46:46Z</date>
+									<date>2011-07-15T06:42:27Z</date>
+								</dict>
+								<dict>
+									<key>filename</key>
+									<string>app/controllers/users_controller.rb</string>
 								</dict>
 							</array>
 							<key>expanded</key>
@@ -41,7 +51,16 @@
 						</dict>
 						<dict>
 							<key>children</key>
-							<array/>
+							<array>
+								<dict>
+									<key>filename</key>
+									<string>app/helpers/application_helper.rb</string>
+									<key>lastUsed</key>
+									<date>2011-07-15T04:11:11Z</date>
+								</dict>
+							</array>
+							<key>expanded</key>
+							<true/>
 							<key>name</key>
 							<string>helpers</string>
 						</dict>
@@ -62,7 +81,34 @@
 							<array>
 								<dict>
 									<key>children</key>
-									<array/>
+									<array>
+										<dict>
+											<key>filename</key>
+											<string>app/views/layouts/application.html.erb</string>
+											<key>lastUsed</key>
+											<date>2011-07-15T06:43:23Z</date>
+										</dict>
+										<dict>
+											<key>filename</key>
+											<string>app/views/layouts/_stylesheets.html.erb</string>
+											<key>lastUsed</key>
+											<date>2011-07-15T04:15:13Z</date>
+										</dict>
+										<dict>
+											<key>filename</key>
+											<string>app/views/layouts/_header.html.erb</string>
+											<key>lastUsed</key>
+											<date>2011-07-15T06:42:32Z</date>
+										</dict>
+										<dict>
+											<key>filename</key>
+											<string>app/views/layouts/_footer.html.erb</string>
+											<key>lastUsed</key>
+											<date>2011-07-15T06:42:36Z</date>
+										</dict>
+									</array>
+									<key>expanded</key>
+									<true/>
 									<key>name</key>
 									<string>layouts</string>
 								</dict>
@@ -71,11 +117,27 @@
 									<array>
 										<dict>
 											<key>filename</key>
+											<string>app/views/pages/about.html.erb</string>
+											<key>lastUsed</key>
+											<date>2011-07-11T02:54:41Z</date>
+										</dict>
+										<dict>
+											<key>filename</key>
+											<string>app/views/pages/contact.html.erb</string>
+											<key>lastUsed</key>
+											<date>2011-07-08T09:30:13Z</date>
+										</dict>
+										<dict>
+											<key>filename</key>
 											<string>app/views/pages/home.html.erb</string>
 											<key>lastUsed</key>
-											<date>2011-07-08T02:47:44Z</date>
-											<key>selected</key>
-											<true/>
+											<date>2011-07-14T11:35:06Z</date>
+										</dict>
+										<dict>
+											<key>filename</key>
+											<string>app/views/pages/help.html.erb</string>
+											<key>lastUsed</key>
+											<date>2011-07-14T11:13:31Z</date>
 										</dict>
 									</array>
 									<key>expanded</key>
@@ -102,7 +164,7 @@
 							<key>filename</key>
 							<string>config/routes.rb</string>
 							<key>lastUsed</key>
-							<date>2011-07-08T02:44:53Z</date>
+							<date>2011-07-15T04:15:07Z</date>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -152,16 +214,6 @@
 					<key>children</key>
 					<array>
 						<dict>
-							<key>filename</key>
-							<string>public/hello.html</string>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>public/index.html</string>
-							<key>lastUsed</key>
-							<date>2011-07-08T02:23:22Z</date>
-						</dict>
-						<dict>
 							<key>children</key>
 							<array/>
 							<key>expanded</key>
@@ -177,11 +229,24 @@
 						</dict>
 						<dict>
 							<key>children</key>
-							<array/>
+							<array>
+								<dict>
+									<key>filename</key>
+									<string>public/stylesheets/custom.css</string>
+									<key>lastUsed</key>
+									<date>2011-07-15T03:31:09Z</date>
+								</dict>
+							</array>
 							<key>expanded</key>
 							<true/>
 							<key>name</key>
 							<string>stylesheets</string>
+						</dict>
+						<dict>
+							<key>filename</key>
+							<string>public/hello.html</string>
+							<key>lastUsed</key>
+							<date>2011-07-14T11:35:37Z</date>
 						</dict>
 					</array>
 					<key>expanded</key>
@@ -197,7 +262,44 @@
 				</dict>
 				<dict>
 					<key>children</key>
-					<array/>
+					<array>
+						<dict>
+							<key>children</key>
+							<array>
+								<dict>
+									<key>filename</key>
+									<string>spec/controllers/pages_controller_spec.rb</string>
+									<key>lastUsed</key>
+									<date>2011-07-15T04:11:48Z</date>
+								</dict>
+								<dict>
+									<key>filename</key>
+									<string>spec/controllers/users_controller_spec.rb</string>
+									<key>lastUsed</key>
+									<date>2011-07-15T06:43:23Z</date>
+								</dict>
+							</array>
+							<key>expanded</key>
+							<true/>
+							<key>name</key>
+							<string>controllers</string>
+						</dict>
+						<dict>
+							<key>children</key>
+							<array>
+								<dict>
+									<key>filename</key>
+									<string>spec/requests/layout_links_spec.rb</string>
+									<key>lastUsed</key>
+									<date>2011-07-15T04:11:08Z</date>
+								</dict>
+							</array>
+							<key>expanded</key>
+							<true/>
+							<key>name</key>
+							<string>requests</string>
+						</dict>
+					</array>
 					<key>expanded</key>
 					<true/>
 					<key>name</key>
@@ -302,7 +404,105 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
+		<key>Gemfile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>app/controllers/pages_controller.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/helpers/application_helper.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>21</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/layouts/_footer.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>42</integer>
+				<key>line</key>
+				<integer>4</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/layouts/_header.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>31</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/layouts/_stylesheets.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/layouts/application.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>33</integer>
+				<key>line</key>
+				<integer>13</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/pages/about.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -316,7 +516,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>app/views/pages/home.html.erb</key>
+		<key>app/views/pages/help.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -324,6 +524,20 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/pages/home.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>67</integer>
+				<key>line</key>
+				<integer>6</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -335,9 +549,79 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>35</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>4</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>public/hello.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>public/stylesheets/custom.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>111</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>76</integer>
+		</dict>
+		<key>spec/controllers/pages_controller_spec.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>63</integer>
+				<key>line</key>
+				<integer>64</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>spec/controllers/users_controller_spec.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>65</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>spec/requests/layout_links_spec.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>40</integer>
+				<key>line</key>
+				<integer>4</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -347,13 +631,26 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>config/routes.rb</string>
-		<string>app/controllers/pages_controller.rb</string>
+		<string>spec/controllers/pages_controller_spec.rb</string>
+		<string>Gemfile</string>
+		<string>app/views/pages/help.html.erb</string>
+		<string>app/helpers/application_helper.rb</string>
+		<string>app/views/layouts/application.html.erb</string>
+		<string>app/views/layouts/_footer.html.erb</string>
+		<string>app/views/layouts/_header.html.erb</string>
 		<string>app/views/pages/home.html.erb</string>
+		<string>public/hello.html</string>
+		<string>public/stylesheets/custom.css</string>
+		<string>spec/requests/layout_links_spec.rb</string>
+		<string>app/views/layouts/_stylesheets.html.erb</string>
+		<string>config/routes.rb</string>
+		<string>app/views/pages/about.html.erb</string>
+		<string>app/controllers/pages_controller.rb</string>
+		<string>spec/controllers/users_controller_spec.rb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{213, 141}, {1090, 737}}</string>
+	<string>{{210, 141}, {1090, 737}}</string>
 </dict>
 </plist>
